@@ -21,7 +21,7 @@ char *a_string = "Hello world";
 在python中只需要：
 
 ```py
-a_string = "Hello world"
+a_string = "Hello world" # 單引號也可以
 ```
 
 以上是變數的宣告，這時候還看不太出來python強在哪，只依稀感覺到方便而已，接下來看function的實作。醜話先說說在前頭，C的function很麻煩，非常麻煩，因為是強型別語言所以參數要要求型態，回傳值也要求型態；但python無型別，所以完全不需要前綴，而且python可以接受為參數初始化，所以可以使參數填和不填都沒差。
