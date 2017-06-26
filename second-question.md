@@ -1,1 +1,2 @@
-This is the answer to "How can I do X?".
+群集資料也是C語言生活中的一個日常，諸如宣告陣列，使用linked list，或者字串，
+
