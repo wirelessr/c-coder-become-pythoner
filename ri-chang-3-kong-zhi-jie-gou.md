@@ -1,3 +1,5 @@
+# 控制結構
+
 了解基本資料型態後接著一樣是C語言的日常，各種流程控制例如if-else、while、for，python與C語言在這方面其實概念差距並不大，但值得注意的是，python的for與C語言的for有一個顯著的差異，python的for並必須使用在iterable的對象身上，例如群集資料。下面先從if-else開始，在C語言中：
 
 ```c

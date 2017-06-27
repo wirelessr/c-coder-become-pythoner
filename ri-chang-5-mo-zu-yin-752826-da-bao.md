@@ -1,3 +1,5 @@
+# 模組引用&打包
+
 在C語言中，無論是需要function的signature或者要知道變數的型態，都必須透過\#include來引用定義的header file，在header file中記載了可能用到的型別和函式，在python中，這樣的過程使用的是import這個關鍵字。之前我們已經看過最基本的import了，但其實import可以再更限定範圍，提供使用上的便利，但要避免namespace重疊。
 
 ```py

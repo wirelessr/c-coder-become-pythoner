@@ -1,3 +1,5 @@
+# 變數與函式
+
 要如何讓C programmer快速入門python？首先就先從日常開始，C code的日常主要包含兩個：變數的宣告和function實作。因為是C coder，所以就不需要探討class之類的OOP。
 
 在python中不需要_**宣告**_變數，直接定義就好，例如在C語言中：
