@@ -1,6 +1,6 @@
 # 模組引用&打包
 
-在C語言中，無論是需要function的signature或者要知道變數的型態，都必須透過\#include來引用定義的header file，在header file中記載了可能用到的型別和函式，在python中，這樣的過程使用的是import這個關鍵字。之前我們已經看過最基本的import了，但其實import可以再更限定範圍，提供使用上的便利，但要避免namespace重疊。
+在C語言中，無論是需要function的signature或者要知道變數的型態，都必須透過\#include來引用定義的header file，在header file中記載了可能用到的型別和函式；在python中，這樣的過程使用的是import這個關鍵字。之前我們已經看過最基本的import了，但其實import可以再更限定範圍，提供使用上的便利，但要避免namespace重疊。
 
 ```py
 import os
@@ -19,7 +19,7 @@ from os.path import * # 千萬不要這樣做，namespace會一蹋糊塗
 print(basename(filename))
 ```
 
-這樣介紹實在沒甚麼意思，但其實python內部包含了無數動人模組，透過import可以讓生活無限便利，例如要寫一個TCP server，在C語言需要：
+這樣介紹實在沒甚麼意思，其實python內部包含了無數動人模組，透過import可以讓生活無限便利，例如要寫一個TCP server，在C語言需要：
 
 ```c
 #include <sys/types.h>
