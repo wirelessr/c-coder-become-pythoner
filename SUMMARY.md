@@ -9,4 +9,5 @@
 * [日常5: 模組引用&打包](ri-chang-5-mo-zu-yin-752826-da-bao.md)
 * [進階1: 全域變數和特殊字元](jin-jie-1-quan-yu-bian-shu-he-te-shu-zi-yuan.md)
 * [進階2: 二維陣列和函式指標](jin-jie-2-er-wei-zhen-lie-he-han-shi-zhi-biao.md)
+* [進階3: 行程和執行緒](jin-jie-3-xing-cheng-he-zhi-xing-xu.md)
 
