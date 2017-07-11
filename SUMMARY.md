@@ -11,4 +11,5 @@
 * [進階2: 二維陣列和函式指標](jin-jie-2-er-wei-zhen-lie-he-han-shi-zhi-biao.md)
 * [進階3: 行程和執行緒](jin-jie-3-xing-cheng-he-zhi-xing-xu.md)
 * [進階4: RegExp和sscanf](jin-jie4-regexp-he-sscanf.md)
+* [進階5: 讀者要求](jin-jie-5-du-zhe-yao-qiu.md)
 
