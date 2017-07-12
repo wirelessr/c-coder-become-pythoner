@@ -52,5 +52,20 @@ for (family, type, proto, canonname, sockaddr) in addr_list:
 
 ---
 
+# 環境變數
 
+在python中，所有的環境變數都被裝在一個map裡，所以要設定或者讀取只需要對map做操作即可，例如：
+
+```py
+import os
+os.environ['HOME']
+```
+
+其實就和C語言的
+
+```c
+getenv("HOME")
+```
+
+是等價的。若是platfrom支援unsetenv的操作，那麼就可以透過map的pop\(\)把想要移出的環境變數給踢掉。
 
